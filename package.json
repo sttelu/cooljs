@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamkun/cooljs.git"
+    "url": "git+https://github.com/sttelu/cooljs.git"
   },
   "keywords": [
     "canvas",
@@ -18,7 +18,7 @@
   "author": "iamkun",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iamkun/cooljs/issues"
+    "url": "https://github.com/sttelu/cooljs/issues"
   },
-  "homepage": "https://github.com/iamkun/cooljs#readme"
+  "homepage": "https://github.com/sttelu/cooljs#readme"
 }

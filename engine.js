@@ -55,7 +55,7 @@ export default class Engine {
     this.loadLimit = loadLimit || 3
     // audio
     this.soundOn = !!soundOn
-    this.soundMute = !!soundMute
+    this.soundMute = false
     // time
     this.fps = 0
     this.lastTime = 0

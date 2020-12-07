@@ -55,6 +55,7 @@ export default class Engine {
     this.loadLimit = loadLimit || 3
     // audio
     this.soundOn = !!soundOn
+    this.soundMute = !!soundMute
     // time
     this.fps = 0
     this.lastTime = 0
@@ -159,7 +160,7 @@ export default class Engine {
   }
 
   playAudio(name, loop = false) {
-    if (!this.soundOn) return
+    if (!this.soundOn || this.soundMute) return
     const audio = this.getAudio(name)
     // const audio = document.getElementById(name)
     if (audio) {

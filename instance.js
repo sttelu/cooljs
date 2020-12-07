@@ -6,6 +6,7 @@ export default class Instance {
     this.y = 0
     this.width = 0
     this.height = 0
+    this.rotation = 0
     this.ax = 0
     this.ay = 0
     this.vx = 0
